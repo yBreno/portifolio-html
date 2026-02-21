@@ -1,0 +1,129 @@
+@media (max-width: 1280px) {
+
+    /* ================= HEADER ================= */
+
+    .menu-pc {
+        display: none;
+    }
+
+    .opcoesIniciais > .botao-contato {
+        display: none;
+    }
+
+    header > .opcoesIniciais {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    /* ================= INICIAL ================= */
+
+    .opcoesIniciais {
+        flex-direction: column;
+        text-align: center;
+        margin: 0 40px;
+        gap: 40px;
+    }
+
+    .texto-inicial h1 {
+        font-size: 36px;
+        line-height: 45px;
+    }
+
+    .texto-inicial h1 span {
+        font-size: 36px;
+        line-height: 45px;
+    }
+
+    .texto-inicial p {
+        font-size: 16px;
+    }
+
+    main .opcoesIniciais img {
+        max-width: 250px;
+        margin-top: 30px;
+    }
+
+    /* ================= PROJETOS ================= */
+
+    .projetos .projetos-container {
+        display: flex;
+        overflow-x: auto;
+        gap: 20px;
+        scroll-snap-type: x mandatory;
+        padding-bottom: 20px;
+        padding-left: 20px;
+    }
+
+    .projetos .projetos-container::-webkit-scrollbar {
+        display: none;
+    }
+
+    .projetos-container .caixa-projetos {
+        flex: 0 0 100%;
+        height: 400px;
+        scroll-snap-align: center;
+    }
+
+    /* ================= FORMAÇÃO ================= */
+
+    .formacao {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .formacao h1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .formacao h1 .linha1,
+    .formacao h1 .linha2 {
+        display: block;
+    }
+
+    .formacao article {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .formacao h2 {
+        margin-bottom: 50px;
+    }
+
+    /* ================= SOBRE ================= */
+
+    .texto-sobre-mim {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .sobre-mim img {
+        max-width: 300px;
+    }
+
+    /* ================= CONTATO ================= */
+
+    section.contato .interface {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .contato form {
+        width: 100%;
+    }
+
+    .botao-enviar {
+        width: 100%;
+        padding: 20px;
+    }
+
+}
