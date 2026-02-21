@@ -193,10 +193,11 @@ section.projetos p {
     border-radius: 15px;
 
     background-size: cover;
-    background-position-y: 0%;
-    
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: block;
     position: relative;
-    
 }
 
 .projetos-container .caixa-projetos:hover{
@@ -207,7 +208,7 @@ section.projetos p {
 }
 
 .projetos-container .gameboxd{
-    background-image:url(projetos/GameBoxd.png);
+    background-image:url(projetos/GameBoxd.png); 
     cursor: pointer;
 }
 .projetos-container .tactic-eye{
