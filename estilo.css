@@ -207,15 +207,15 @@ section.projetos p {
 }
 
 .projetos-container .gameboxd{
-    background-image:url(../Portifolio/projetos/GameBoxd.png);
+    background-image:url(projetos/GameBoxd.png);
     cursor: pointer;
 }
 .projetos-container .tactic-eye{
-    background-image:url(../Portifolio/projetos/TaticEye.png);
+    background-image:url(projetos/TaticEye.png);
     cursor: pointer;
 }
 .projetos-container .all-count{
-    background-image:url(../Portifolio/projetos/All\ Count.png);
+    background-image:url(projetos/All\ Count.png);
     cursor: pointer;
 }
 
