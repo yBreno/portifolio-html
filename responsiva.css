@@ -127,3 +127,112 @@
     }
 
 }
+
+@media (max-width: 1024px) {
+
+    /* HEADER */
+    header {
+        display: none;
+    }
+
+    /* INICIAL */
+    .texto-inicial h1,
+    .texto-inicial h1 span {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .texto-inicial p {
+        font-size: 15px;
+    }
+
+    main .opcoesIniciais img {
+        max-width: 220px;
+    }
+
+    /* PROJETOS */
+    .projetos-container .caixa-projetos {
+        height: 350px;
+    }
+
+    /* SOBRE */
+    .sobre-mim img {
+        max-width: 260px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    header {
+        display: none;
+    }
+
+    .opcoesIniciais {
+        margin: 0 20px;
+        gap: 30px;
+    }
+
+    .texto-inicial h1,
+    .texto-inicial h1 span {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .texto-inicial p {
+        font-size: 14px;
+    }
+
+    main .opcoesIniciais img {
+        max-width: 200px;
+    }
+
+    .projetos-container .caixa-projetos {
+        height: 320px;
+    }
+
+    .formacao article {
+        gap: 20px;
+    }
+
+    .botao-enviar {
+        padding: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    header {
+        display: none;
+    }
+
+    .opcoesIniciais {
+        margin: 0 15px;
+        gap: 25px;
+    }
+
+    .texto-inicial h1,
+    .texto-inicial h1 span {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .texto-inicial p {
+        font-size: 13px;
+    }
+
+    main .opcoesIniciais img {
+        max-width: 170px;
+    }
+
+    .projetos-container .caixa-projetos {
+        height: 280px;
+    }
+
+    .sobre-mim img {
+        max-width: 200px;
+    }
+
+    .botao-enviar {
+        padding: 14px;
+    }
+}
