@@ -269,6 +269,7 @@ section.projetos p {
 .formacao h2{
     font-family: var(--titulos);
     height: 40px;
+    padding-bottom: 80px;
 }
 
 .formacao h2 span{
